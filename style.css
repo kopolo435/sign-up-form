@@ -15,7 +15,7 @@ body{
     margin: 0;
 }
 
-.sideBar{
+.leftBar{
     width: 30%;
     background-image: url(img/plants.jpg);
     background-size: cover; 

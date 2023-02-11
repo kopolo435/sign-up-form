@@ -21,10 +21,6 @@ body{
     background-size: cover; 
 }
 
-.formContainer{
-    width: 70%;
-
-}
 
 .leftBarHeader{
     height: 25%;
@@ -40,6 +36,20 @@ body{
 .leftBarHeader p{
     font-size: 5rem;
     color: white;
+}
+
+.rightBarHeader{
+    margin-left: 2rem;
+}
+
+.formContainer{
+    padding-left: 2rem;
+    border: 2px solid black;
+
+}
+
+.rightBarFooter{
+    margin-left: 2rem;
 }
 
 .rowForm{

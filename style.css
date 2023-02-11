@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "nordic";
+    src: url(Norse-Bold.otf);
+}
+
 p{
+    font-family: "nordic";
     color: blue;
 }

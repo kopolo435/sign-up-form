@@ -3,10 +3,6 @@
     src: url(Norse-Bold.otf);
 }
 
-p{
-    font-family: "nordic";
-    color: rgb(0, 0, 0);
-}
 
 body{
     display: flex;

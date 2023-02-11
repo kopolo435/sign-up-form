@@ -5,7 +5,7 @@
 
 p{
     font-family: "nordic";
-    color: blue;
+    color: rgb(0, 0, 0);
 }
 
 body{
@@ -40,4 +40,9 @@ body{
 .leftBarHeader p{
     font-size: 5rem;
     color: white;
+}
+
+.rowForm{
+    display: flex;
+    gap: 3rem;
 }

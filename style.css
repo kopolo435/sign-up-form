@@ -7,3 +7,21 @@ p{
     font-family: "nordic";
     color: blue;
 }
+
+body{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.sideBar{
+    width: 30%;
+    background-image: url(img/plants.jpg);
+    background-size: cover; 
+}
+
+.formContainer{
+    width: 70%;
+
+}

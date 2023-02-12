@@ -45,7 +45,7 @@ body{
 
 .formContainer{
     padding-left: 2rem;
-    border: 2px solid black;
+    border: 2px solid #000000;
 
 }
 
@@ -61,3 +61,15 @@ body{
 .rowForm label{
     display: block;
 }
+
+input{
+    border: 1px solid #E5E7EB;
+}
+
+input:focus{
+    border: 2.5px solid #3e3efc;
+    border-radius: 3px;
+    box-shadow: 4px 2px 5px gray;
+    outline: none;
+}
+

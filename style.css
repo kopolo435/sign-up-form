@@ -41,6 +41,8 @@ body{
 
 .rightBarHeader{
     margin-left: 2rem;
+    width: 60%;
+    padding-top: 4rem;
 }
 
 .formContainer{

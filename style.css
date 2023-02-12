@@ -69,7 +69,7 @@ input{
 input:focus{
     border: 2.5px solid #3e3efc;
     border-radius: 3px;
-    box-shadow: 4px 2px 5px gray;
+    box-shadow: 4px 2px 5px #acaaaa;
     outline: none;
 }
 

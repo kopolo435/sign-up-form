@@ -82,3 +82,9 @@ input:focus{
     border: none;
     border-radius: 15px;
 }
+
+.rightBarFooter a{
+    text-decoration: none;
+    color: #596D48;
+    font-weight: 900;
+}

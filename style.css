@@ -64,7 +64,7 @@ body{
 }
 
 input{
-    border: 1px solid #E5E7EB;
+    border: 1.5px solid #E5E7EB;
 }
 
 input:focus{

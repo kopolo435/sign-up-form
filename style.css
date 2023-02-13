@@ -98,6 +98,10 @@ input:focus{
     outline: none;
 }
 
+.error{
+    border: 2.5px solid #ff0000;
+}
+
 .rightBarFooter button{
     background-color: #596D48;
     color: #ffffff;

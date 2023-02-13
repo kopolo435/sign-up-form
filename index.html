@@ -29,17 +29,17 @@
             <form action="" method="post" id="signUp">
                 <div class="rowForm">
                     <p>
-                        <label for="userName">First Name</label>
-                        <input id="userName" type="text" name="userName">
+                        <label for="userName">First Name <span aria-label="required">*</span></label>
+                        <input id="userName" type="text" name="userName" required>
                     </p>
                     <p>
-                        <label for="lastName">Last Name</label>
+                        <label for="lastName">Last Name <span aria-label="required">*</span></label>
                         <input id="lastName" type="text" name="userLastName">
                     </p>
                 </div>
                 <div class="rowForm">
                     <p>
-                        <label for="email">Email</label>
+                        <label for="email">Email <span aria-label="required">*</span></label>
                         <input id="email" type="email" name="userEmail">
                     </p>
                     <p>
@@ -49,11 +49,11 @@
                 </div>
                 <div class="rowForm">
                     <p>
-                        <label for="password">Password</label>
+                        <label for="password">Password <span aria-label="required">*</span></label>
                         <input id="password" type="password" name="password" class="error">
                     </p>
                     <p>
-                        <label for="conPassword">Confirm Password</label>
+                        <label for="conPassword">Confirm Password <span aria-label="required">*</span></label>
                         <input id="conPassword" type="password" name="conPassword" class="error">
                     </p>
                 </div>

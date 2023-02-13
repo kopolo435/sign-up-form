@@ -52,6 +52,11 @@ body{
 
 }
 
+.formContainer>p{
+    font-size: 1.5rem;
+    margin: 0px;
+}
+
 .rightBarFooter{
     margin-left: 2rem;
 }

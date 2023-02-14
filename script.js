@@ -1,6 +1,7 @@
 const password=document.querySelector("#password");
 const conPassword=document.querySelector("#conPassword");
 const errorMsg=document.querySelector("#password+ span.errorMsg");
+const form=document.querySelector("form");
 
 conPassword.addEventListener("input",()=>{
     if(password.value!=conPassword.value){
@@ -21,5 +22,11 @@ conPassword.addEventListener("input",()=>{
             conPassword.classList.remove("error");
             errorMsg.textContent="";
         }
+    }
+})
+
+form.addEventListener("submit",()=>{
+    if(errorMsg.textContent){
+        Event.preventDefault();
     }
 })

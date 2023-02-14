@@ -25,7 +25,7 @@
                  tempora aliquam eos? Saepe blanditiis suscipit, tempora error facilis repellat odio nostrum quibusdam dolorem veritatis!</p>
             <p>Lorem ipsum dolor sit amet.</p>
         </div>
-        <div class="formContainer">
+        <div class="formContainer" novalidate>
             <p>Lets do this</p>
             <form action="" method="post" id="signUp">
                 <div class="rowForm">
@@ -52,6 +52,7 @@
                     <p>
                         <label for="password">Password <span aria-label="required">*</span></label>
                         <input id="password" type="password" name="password">
+                        <span aria-live="polite" class="errorMsg"></span>
                     </p>
                     <p>
                         <label for="conPassword">Confirm Password <span aria-label="required">*</span></label>

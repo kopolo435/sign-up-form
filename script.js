@@ -3,6 +3,7 @@ const conPassword=document.querySelector("#conPassword");
 const errorMsg=document.querySelector("#password+ span.errorMsg");
 const form=document.querySelector("form");
 const leftBar=document.querySelector(".leftBar");
+const rightBar=document.querySelector(".rightBar");
 
 conPassword.addEventListener("input",()=>{
     if(password.value!=conPassword.value){
@@ -31,10 +32,11 @@ form.addEventListener("submit",()=>{
         Event.preventDefault();
     }
 })
-
+/*
 window.addEventListener("DOMContentLoaded",()=>{
-    if(leftBar.offsetWidth>300){
-        console.log(leftBar.offsetWidth);
-        leftBar.style.height="25vh";
+    if(leftBar.offsetWidth>330){
+        
     }
 })
+
+*/

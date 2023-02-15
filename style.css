@@ -14,7 +14,7 @@ body{
 }
 
 .leftBar{
-    width: max(30%,440px);
+    width: max(30%,300px);
     flex: 1 0 auto;
     background-image: url(img/plants.jpg);
     background-size: cover; 
